@@ -1,0 +1,14 @@
+/coverage
+/doc
+/lib/jars
+/node_modules
+*.log
+.idea
+package-lock.json
+.env
+/credentials/*
+/logs/*
+/dist
+tsconfig.tsbuildinfo
+dump.rdb
+.DS_Store
