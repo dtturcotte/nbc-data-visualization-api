@@ -12,6 +12,10 @@ _do_: create google service account, enable gsheets, and add "google_credentials
 
 _do_: create .env in root from .env-sample, and fill in your values
 
+### Install Node modules
+
+_run_: `npm i`
+
 ### Build typescript
 
 _run_: `npm run build`
