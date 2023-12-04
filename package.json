@@ -11,12 +11,12 @@
 		"migrate": "npx knex migrate:latest --knexfile src/knexfile.ts",
 		"rollback": "npx knex migrate:rollback --knexfile src/knexfile.ts",
 		"reset": "npm run rollback && npm run migrate",
-		"dev": "nodemon",
 		"copy-static": "ncp ./src/static ./dist/static",
 		"copy-properties": "ncp ./src/services/api/awsKCL/consumer/sample.properties ./dist/services/api/awsKCL/consumer/sample.properties",
 		"clean-dist": "rimraf ./dist",
 		"build": "npm run clean-dist && tsc && npm run copy-properties && npm run copy-static",
-		"start": "node ./dist/server.js"
+		"start": "node ./dist/server.js",
+		"dev": "nodemon"
 	},
 	"dependencies": {
 		"aws-kcl": "^2.2.2",

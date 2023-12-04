@@ -1,5 +1,34 @@
 # NBC Data Visualization App API
 
+---
+
+## App overview
+
+Simulates a react real-time political data visualization dashboard that consumes data from various sources and technologies.
+
+---
+
+## App features
+
+-   Server
+    -   Node.js / Express
+-   Data streaming
+    -   WebSockets
+    -   Kinesis
+-   Node.js Interprocess Communication
+    -   Redis
+-   Data storage
+    -   Google Sheets
+    -   Postgres
+    -   Kinesis
+-   Performance considerations
+    -   Compression
+        -   gzip
+    -   Efficient data usage
+        -   topojson (43% of size) over geojson
+
+---
+
 ## Running the app
 
 There are a few moving pieces to demonstrate producing, consuming, and streaming data from multiple sources.
